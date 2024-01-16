@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import "./like-button.css";
+
 
 export default function LikeButton() {
   const [likes, setLikes] = useState(0);
@@ -9,5 +11,10 @@ export default function LikeButton() {
     setLikes(likes + 1);
   }
 
-  return <button onClick={click}> Like! ({likes}) </button>;
+  return (
+    <button className="likeBtn" onClick={click}>
+      {" "}
+      Like! ({likes}){" "}
+    </button>
+  );
 }

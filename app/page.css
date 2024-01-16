@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Imported;
+  src: url(./fonts/rubik/Rubik-Regular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Imported;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-small {
+  font-size: 0.75rem;
+}
+
+.font-medium {
+  font-size: 1rem;
+}
+.font-large {
+  font-size: 1.5rem;
+}
+
+.font-x-large {
+  font-size: 2rem;
+}
+
+.gap-small {
+  gap: 0.75rem;
+}
+.gap-medium {
+  gap: 1rem;
+}
+.gap-large {
+  gap: 1.5rem;
+}
+.gap-x-large {
+  gap: 2rem;
+}
+.gap-xx-large {
+  gap: 4rem;
+}
