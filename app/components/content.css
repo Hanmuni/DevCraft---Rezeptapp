@@ -1,23 +1,5 @@
 .content {
   width: 100%;
   color: rgb(255, 255, 255);
-}
-
-.search-bar {
-  height: 5vh;
-  background-color: blue;
-}
-
-.filter {
-  height: 5vh;
-  background-color: darkcyan;
-}
-
-.add-recipe {
-  height: 20vh;
-  background-color: deepskyblue;
-}
-
-.recipes {
-  background-color: steelblue;
+  margin: 2rem;
 }
