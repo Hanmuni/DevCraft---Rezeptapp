@@ -4,5 +4,5 @@ import { useState } from "react";
 import "./filter.css";
 
 export default function Filter() {
-  return <button className="font-large" >Filter </button>;
+  return <button className="filterBtn font-large" >Filter </button>;
 }

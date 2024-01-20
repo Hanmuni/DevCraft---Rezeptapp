@@ -1,0 +1,17 @@
+.userBtn {
+  background-image: url(/img/HongHanh.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  padding: 1rem;
+  margin-left: 10rem;
+  border: 0.125rem solid rgb(255, 255, 255);
+  outline: 0.125rem solid rgb(233, 55, 84);
+}
+
+.userBtn:hover {
+  cursor: pointer;
+}
