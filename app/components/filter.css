@@ -1,4 +1,4 @@
-button {
+.filterBtn {
   background-color: rgb(250, 249, 251);
   background-image: url(/img/filter.png);
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ button {
   padding-left: 3rem;
 }
 
-button:hover {
+.filterBtn:hover {
   cursor: pointer;
   background-color: rgb(233, 55, 84);
   background-image: url(/img/filter-white.png);
