@@ -5,6 +5,7 @@ import "./content.css";
 import SearchBar from "./search-bar";
 import Filter from "./filter";
 import User from "./user";
+import Banner from "./banner";
 
 export default function Navbar() {
   return (
@@ -12,6 +13,10 @@ export default function Navbar() {
       <div className="row align-center gap-xx-large">
         <SearchBar /> <Filter />
         <User />
+      </div>
+
+      <div>
+        <Banner />
       </div>
     </div>
   );
