@@ -5,7 +5,7 @@ import "./navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <nav className="navbar sticky">
       <div class="logo-container column  align-center text-center">
         <img className="logo" src="img/logo.png" />
         <span className="font-large">KOCHTRESOR</span>
