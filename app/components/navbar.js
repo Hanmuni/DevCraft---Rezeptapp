@@ -9,12 +9,12 @@ export default function Navbar() {
       <div class="logo-container column  align-center text-center">
         <img className="logo" src="img/logo.png" />
         <span className="font-large">KOCHTRESOR</span>
-        <span className="font-small">
+        <span className="font-small d-none">
           Kulinarische Schätze für jeden Geschmack
         </span>
       </div>
 
-      <div className="column text-center font-large gap-large">
+      <div className="column text-center font-large gap-large d-none">
         <a>
           <img className="icon" src="img/home.png" /> Home
         </a>
@@ -25,6 +25,10 @@ export default function Navbar() {
           <img className="icon" src="img/heart.png" /> Favoriten
         </a>
       </div>
+
+      <a>
+        <img className="display-desktop burger-menu" src="img/burger-menu.png" />
+      </a>
     </nav>
   );
 }

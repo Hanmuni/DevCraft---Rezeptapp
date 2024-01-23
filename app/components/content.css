@@ -9,3 +9,9 @@
   background-color: rgb(255, 255, 255);
   padding: 1rem;
 }
+
+@media (max-width: 40rem) {
+  .d-none {
+    display: none !important;
+  }
+}

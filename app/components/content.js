@@ -11,12 +11,12 @@ import Recipe from "./recipe";
 export default function Navbar() {
   return (
     <div className="content">
-      <div className="row align-center gap-xx-large sticky top-container">
+      <div className="row align-center gap-xx-large sticky top-container d-none">
         <SearchBar /> <Filter />
         <User />
       </div>
 
-      <div>
+      <div className="d-none">
         <Banner />
       </div>
 

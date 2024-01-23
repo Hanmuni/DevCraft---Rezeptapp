@@ -75,4 +75,9 @@ body {
   gap: 4rem;
 }
 
-
+@media (max-width: 40rem) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}

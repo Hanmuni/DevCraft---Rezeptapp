@@ -26,3 +26,9 @@
   border: 0.125rem solid rgb(233, 55, 84);
   color: rgb(233, 55, 84);
 }
+
+@media (max-width: 40rem) {
+  .recipe-box {
+    width: auto;
+  }
+}
