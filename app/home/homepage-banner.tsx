@@ -1,9 +1,4 @@
-"use client";
-
-import { useState } from "react";
-import "./banner.css";
-
-export default function Banner() {
+export default function HomePageBanner() {
   return (
     <div className="banner column align-center">
       <span className="font-large header">
