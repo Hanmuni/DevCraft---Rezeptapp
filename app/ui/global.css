@@ -185,7 +185,7 @@ a:hover {
 
 .search-field {
   background-color: rgb(250, 249, 251);
-  background-image: url(../../public/img/search.png);
+  background-image: url(../../public/icons/search.png);
   background-repeat: no-repeat;
   background-size: 2rem 2rem;
   background-position: left 1rem center;
@@ -206,7 +206,7 @@ input:focus {
 
 .filterBtn {
   background-color: rgb(250, 249, 251);
-  background-image: url(/img/filter.png);
+  background-image: url(/icons/filter.png);
   background-repeat: no-repeat;
   background-size: 1.5rem 1.5rem;
   background-position: left 1rem center;
@@ -221,7 +221,7 @@ input:focus {
 .filterBtn:hover {
   cursor: pointer;
   background-color: rgb(233, 55, 84);
-  background-image: url(/img/filter-white.png);
+  background-image: url(/icons/filter-white.png);
   color: rgb(255, 255, 255);
 }
 
@@ -298,6 +298,15 @@ input:focus {
   color: rgb(255, 255, 255);
   border-radius: 0.5rem;
   padding: 1rem;
+
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(233, 55, 84);
+  }
 }
 
 .recipeBtn:hover {
@@ -311,4 +320,30 @@ input:focus {
   .recipe-box {
     width: auto;
   }
+}
+
+.druckenBtn, .favoritenBtn, .teilenBtn {
+  cursor: pointer;
+  background-color: rgb(233, 55, 84);
+  color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 2rem 2rem;
+  background-position: center;
+  border-radius: 50%;
+  border: none;
+  height: 8vh;
+  width: 8vh;
+  padding: 1rem;
+}
+
+.druckenBtn {
+  background-image: url(/icons/printer.png);
+}
+
+.favoritenBtn {
+  background-image: url(/icons/no-favorite.png);
+}
+
+.teilenBtn {
+  background-image: url(/icons/sharethis.png);
 }
