@@ -25,6 +25,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <RecipeCard />
         <RecipeCard />
     </div>
+    <div>
+      <div>{children}</div>
+    </div>
   </div>
   );
 }
