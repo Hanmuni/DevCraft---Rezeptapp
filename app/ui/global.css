@@ -334,6 +334,7 @@ input:focus {
   height: 8vh;
   width: 8vh;
   padding: 1rem;
+  margin: 0 1rem;
 }
 
 .druckenBtn {
@@ -347,3 +348,53 @@ input:focus {
 .teilenBtn {
   background-image: url(/icons/sharethis.png);
 }
+
+.detail {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.h2deatil, .h3detail {
+  color: rgb(233, 55, 84);
+}
+
+.h3detail-box {
+  width: 72%;
+  background-color: rgb(233, 55, 84);
+  border-radius: 2rem;
+  padding: 0.8rem;
+  color: rgb(255, 255, 255);
+}
+
+.detail-box {
+  width: 75%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 0.125rem solid rgb(233, 55, 84);
+  color: rgb(233, 55, 84);
+}
+
+.recipe-img-box {
+  width: 75%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(233, 55, 84);
+}
+
+.detail-data-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.description-detail {
+  margin-bottom: 1rem;
+}
+
+.uldetail {
+  list-style-type: none;
+}
+
+
