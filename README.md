@@ -9,12 +9,12 @@
 
 ### Main functions
 
-**Recipe management:** Users can create, edit and delete their own recipes.
-**Recipe Search:** Users can search for recipes by specifying ingredients, cuisine type, dietary preferences or meal categories.
-**Filter and sorting:** Users can filter and sort search results based on various parameters such as cooking time or popularity.
-**Detailed recipe view:** Each recipe shows a detailed view with ingredients, preparation steps and nutritional information.
-**Favorites:** Users can mark certain recipes as favorites and list all favorites.
-**Responsive design:** The application should be accessible on different devices (desktop, tablet, mobile) and designed in an appealing way.
+- **Recipe management:** Users can create, edit and delete their own recipes.
+- **Recipe Search:** Users can search for recipes by specifying ingredients, cuisine type, dietary preferences or meal categories.
+- **Filter and sorting:** Users can filter and sort search results based on various parameters such as cooking time or popularity.
+- **Detailed recipe view:** Each recipe shows a detailed view with ingredients, preparation steps and nutritional information.
+- **Favorites:** Users can mark certain recipes as favorites and list all favorites.
+- **Responsive design:** The application should be accessible on different devices (desktop, tablet, mobile) and designed in an appealing way.
 
 ### Techstack
 
@@ -44,8 +44,6 @@ Our project supervisor for the frontend project is: [Ramón Huidobro](https://gi
 - For initial employee training to gain an understanding of React starting from JavaScript, we used the React tutorial on the Next.js website: [React Foundations](https://nextjs.org/learn/react-foundations)
 
 - We followed this tutorial to create the routing and directory, as well as further implementation [Learn Next.js](https://nextjs.org/learn/dashboard-app)
-
-- We used the following guide to create the Readme.md [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 ## License
 
