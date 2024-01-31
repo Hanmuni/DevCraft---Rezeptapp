@@ -131,6 +131,7 @@ img {
 a {
   padding-bottom: 4rem;
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 a:hover {
