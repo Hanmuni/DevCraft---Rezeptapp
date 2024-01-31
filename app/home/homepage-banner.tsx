@@ -2,11 +2,11 @@ export default function HomePageBanner() {
   return (
     <div className="banner column align-center">
       <span className="font-large header">
-        <img className="food-icon" src="img/hamburger.png" />
-        <img className="food-icon" src="img/fries.png" />
+        <img className="food-icon" src="icons/hamburger.png" />
+        <img className="food-icon" src="icons/fries.png" />
         &nbsp; Verborgene Köstlichkeiten entdecken, kreieren und teilen &nbsp;
-        <img className="food-icon" src="img/taco.png" />
-        <img className="food-icon" src="img/eggplant.png" />
+        <img className="food-icon" src="icons/taco.png" />
+        <img className="food-icon" src="icons/eggplant.png" />
       </span>
 
       <span className="font-medium text-center">
